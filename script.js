@@ -52,16 +52,22 @@
 // }
 // console.log (`He/She has born in ${centure} centure`)
 
-const massMark = 78;
-const heightMark = 1.69;
-const massJohn = 92;
-const heightJohn = 1.95;
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
 
-const BMIMark = massMark / (heightMark * heightMark);
-const BMIJohn = massJohn / (heightJohn * heightJohn);
-console.log(BMIMark, BMIJohn);
-if (BMIMark>BMIJohn){
-    console.log(`BMI of mark , which is ${BMIMark} is greater`);
-}else{
-    console.log(`BMI of john , which is ${BMIJohn} is greater`)
-}
+// const BMIMark = massMark / (heightMark * heightMark);
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+// console.log(BMIMark, BMIJohn);
+// if (BMIMark>BMIJohn){
+//     console.log(`BMI of mark , which is ${BMIMark} is greater`);
+// }else{
+//     console.log(`BMI of john , which is ${BMIJohn} is greater`)
+// }
+
+// Type Conversion and Coercion//\
+//type conver
+const inputYear = "2003";
+console.log (Number(inputYear));
+console.log(Number(inputYear) + 2024)
