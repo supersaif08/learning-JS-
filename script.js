@@ -66,8 +66,14 @@
 //     console.log(`BMI of john , which is ${BMIJohn} is greater`)
 // }
 
-// Type Conversion and Coercion//\
-//type conver
+// Type Conversion and Coercion//
+
+//type conversion 
 const inputYear = "2003";
 console.log (Number(inputYear));
 console.log(Number(inputYear) + 2024)
+
+// type coercion
+console.log('I am ' + 21 + ' years old')//here the 21 is automativcly converted to number
+console.log('21'+'21' + 3)//here the number are converted into string , when "+" is used , same goes for "*" and "/"
+console.log('21' - '21' - 3)//here the number are converted into actual number rather than string , when "-" is used
