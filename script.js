@@ -135,7 +135,7 @@ if (num !== 23){
 
 // . Boolean Logic 
 //AND opersation 
-const age = true;
+/*const age = true;
 const eye =true;
 console.log(age && eye);//true
 
@@ -184,4 +184,17 @@ if(saifAge || saifVision){
     console.log("He can drive")
 }else{
     console.log("He can't drive")//we will get the out if any one of the value is true
-}
+}*/
+
+//task 1
+/*const scoreDolphins =(96+108+89)/3;
+const scoreKoalas=(89+91+110)/3;
+console.log(scoreDolphins,scoreKoalas)
+
+if(scoreDolphins>scoreKoalas){
+    console.log("dolphins are the winner's");
+}else if (scoreDolphins<scoreKoalas){
+    console.log("koalas are the winner")
+}else(scoreDolphins === scoreKoalas){
+    console.log("the race is a tie")
+}*/
