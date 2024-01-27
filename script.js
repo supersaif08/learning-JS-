@@ -79,24 +79,56 @@
 // console.log('21' - '21' - 3)//here the number are converted into actual number rather than string , when "-" is used
 
 // Truthy and Falsy Values
-console.log(Boolean(0));
-console.log(Boolean(undefined));
-console.log(Boolean({}));
-console.log(Boolean('saif'));
-console.log(Boolean(''));
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean({}));
+// console.log(Boolean('saif'));
+// console.log(Boolean(''));
 
-// example in "if else"
-const money=0;
-if(money){
-    console.log("spend it all :))");
-}else{
-    console.log("get some !!")
+// // example in "if else"
+// const money=0;
+// if(money){
+//     console.log("spend it all :))");
+// }else{
+//     console.log("get some !!")
+// }
+
+
+// const Height='';
+// if(Height){
+//     console.log("hohohoho")
+// }else{
+//     console.log("nonoonooooooooooo")
+// }
+
+
+// Equality Operators: == vs. ===
+const age=18;
+if(age===18){
+    console.log("congras you turned in an adult")
 }
 
+const age_two='18';
+if(age_two==18){
+    console.log("congras you turned in an adult")
+}
 
-const Height='';
-if(Height){
-    console.log("hohohoho")
+const num=prompt("what's your fav number")
+console.log(num)
+
+if(num==23){
+    console.log("that's a great number :D");
+}
+
+if(num===23){
+    console.log("that's not a number");
+}else if (num==7){
+    console.log("this is a great number");
 }else{
-    console.log("nonoonooooooooooo")
+    console.log("nothing");
+}
+
+//difference
+if (num !== 23){
+    console.log("why not 23 !")
 }
