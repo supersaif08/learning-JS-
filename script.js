@@ -103,7 +103,7 @@
 
 
 // Equality Operators: == vs. ===
-const age=18;
+/*const age=18;
 if(age===18){
     console.log("congras you turned in an adult")
 }
@@ -131,4 +131,57 @@ if(num===23){
 //difference
 if (num !== 23){
     console.log("why not 23 !")
+}*/
+
+// . Boolean Logic 
+//AND opersation 
+const age = true;
+const eye =true;
+console.log(age && eye);//true
+
+const age_1 = true;
+const eye_1 =false;
+console.log(age_1 && eye_1);//AND opersation //false
+
+const age_2 = false;
+const eye_2 =true;
+console.log(age_2 && eye_2);//AND opersation // false
+
+const age_3 = false;
+const eye_3 =false;
+console.log(age_3 && eye_3);//AND opersation // 
+
+// OR operation 
+const age_4 = true;
+const eye_4 =true;
+console.log(age || eye);//true
+
+const age_5 = true;
+const eye_5 =false;
+console.log(age_5 || eye_5);//true
+
+const age_6 = true;
+const eye_6 =false;
+console.log(age_6 || eye_6);//true
+
+const age_7 = true;
+const eye_7 =false;
+console.log(age_7 || eye_7);//true
+
+//NOT operation
+console.log(!age)//true->false
+
+const saifVision=false;
+const saifAge=true;
+
+if(saifAge && saifVision){
+    console.log("He can drive")
+}else{
+    console.log("He can't drive") //we will get the result if and if only both vallues are true
+}
+
+if(saifAge || saifVision){
+    console.log("He can drive")
+}else{
+    console.log("He can't drive")//we will get the out if any one of the value is true
 }
