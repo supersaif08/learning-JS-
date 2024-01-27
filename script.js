@@ -69,11 +69,34 @@
 // Type Conversion and Coercion//
 
 //type conversion 
-const inputYear = "2003";
-console.log (Number(inputYear));
-console.log(Number(inputYear) + 2024)
+// const inputYear = "2003";
+// console.log (Number(inputYear));
+// console.log(Number(inputYear) + 2024)
 
-// type coercion
-console.log('I am ' + 21 + ' years old')//here the 21 is automativcly converted to number
-console.log('21'+'21' + 3)//here the number are converted into string , when "+" is used , same goes for "*" and "/"
-console.log('21' - '21' - 3)//here the number are converted into actual number rather than string , when "-" is used
+// // type coercion
+// console.log('I am ' + 21 + ' years old')//here the 21 is automativcly converted to number
+// console.log('21'+'21' + 3)//here the number are converted into string , when "+" is used , same goes for "*" and "/"
+// console.log('21' - '21' - 3)//here the number are converted into actual number rather than string , when "-" is used
+
+// Truthy and Falsy Values
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean({}));
+console.log(Boolean('saif'));
+console.log(Boolean(''));
+
+// example in "if else"
+const money=0;
+if(money){
+    console.log("spend it all :))");
+}else{
+    console.log("get some !!")
+}
+
+
+const Height='';
+if(Height){
+    console.log("hohohoho")
+}else{
+    console.log("nonoonooooooooooo")
+}
