@@ -198,3 +198,4 @@ if(scoreDolphins>scoreKoalas){
 }else(scoreDolphins === scoreKoalas){
     console.log("the race is a tie")
 }*/
+console.log("hello")
